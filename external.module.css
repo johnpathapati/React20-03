@@ -1,0 +1,17 @@
+.headStyle{
+    color:White;
+    background-color: blue;
+    border: 2px soild black;
+}
+
+.success{
+	
+	color:white;
+	background-Color:green;
+	border:2px solid black;
+}
+.error{
+    color:white;
+	background-Color:red;
+	border:2px solid black;
+}
