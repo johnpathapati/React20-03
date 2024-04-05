@@ -2,6 +2,14 @@ import { useState } from 'react';
 import './App.css';
 import BasicClassComponent from './Component/basic-class-component';
 import BasicPropsFunction from './Component/props_function';
+import BasicStateComponent from './Component/state-component';
+import BasicClassComponentinlineCss from './Component/basic-class-component-inlinecss';
+import BasicFunctionInlineCss from './Component/basic-function-inlinecss';
+import BasicClassComponentExternalCss from './Component/external-class-component';
+import BasicExternalFunction from './Component/external-function';
+import BasicParentClassComponent from './Component/basic-parent-class-component'; 
+import BasicParentModuleClassComponent from './Component/basic-module-class-component-parent';
+import ParentListDisplay from './Component/parent-listdisplay';
 
 function App() {
   
@@ -26,10 +34,18 @@ function App() {
       }}> + </button>
     
      
-  </div> 
-    <BasicClassComponent></BasicClassComponent>
-    <BasicPropsFunction text='Venkat' tool='ReactJs'></BasicPropsFunction>
-  </div>
+    </div> 
+     <BasicClassComponent></BasicClassComponent>
+      <BasicPropsFunction text='Venkat' tool='ReactJs'></BasicPropsFunction>
+      <BasicStateComponent></BasicStateComponent>
+      <BasicClassComponentinlineCss></BasicClassComponentinlineCss>
+      <BasicFunctionInlineCss></BasicFunctionInlineCss>
+      <BasicClassComponentExternalCss></BasicClassComponentExternalCss>
+      <BasicExternalFunction></BasicExternalFunction>
+      <BasicParentClassComponent></BasicParentClassComponent>
+      <BasicParentModuleClassComponent></BasicParentModuleClassComponent>
+      <ParentListDisplay></ParentListDisplay>
+    </div>
   )
 }
 
