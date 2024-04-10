@@ -10,6 +10,9 @@ import BasicExternalFunction from './Component/external-function';
 import BasicParentClassComponent from './Component/basic-parent-class-component'; 
 import BasicParentModuleClassComponent from './Component/basic-module-class-component-parent';
 import ParentListDisplay from './Component/parent-listdisplay';
+import BasicClassComponentPortal from './Component/basic_class_component_portal';
+import BasicFunctionComponentPortal from './Component/basic_function_component_portal';
+import BasicClassComponentCreateref from './Component/basic-class-component-focus';
 
 function App() {
   
@@ -45,6 +48,9 @@ function App() {
       <BasicParentClassComponent></BasicParentClassComponent>
       <BasicParentModuleClassComponent></BasicParentModuleClassComponent>
       <ParentListDisplay></ParentListDisplay>
+      <BasicClassComponentPortal></BasicClassComponentPortal>
+      <BasicFunctionComponentPortal></BasicFunctionComponentPortal>
+      <BasicClassComponentCreateref></BasicClassComponentCreateref>
     </div>
   )
 }
